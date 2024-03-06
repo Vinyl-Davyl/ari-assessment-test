@@ -440,10 +440,8 @@ export default function Home() {
 
             {isDragActive && (
               <div className="fixed inset-0 h-screen w-full flex flex-col items-center justify-center space-y-3 bg-black bg-opacity-50">
-                <LucideImage className="text-white h-40 w-40" />
-                <p className="font-semibold text-foreground text-white">
-                  Drop image here...
-                </p>
+                <UserRound className="text-white h-40 w-40" />
+                <p className="font-semibold text-foreground text-white">Drop</p>
               </div>
             )}
           </div>
