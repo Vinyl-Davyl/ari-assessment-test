@@ -80,7 +80,7 @@ export default function Home() {
     defaultValues: {
       companyName: "",
       companyWebsite: "",
-      companyLinkedIn: "",
+      companyLinkedin: "",
       companyIndustry: "",
       companyDescription: "",
       companyGoals: "",
@@ -252,7 +252,7 @@ export default function Home() {
 
                   <FormField
                     control={form.control}
-                    name="companyLinkedIn"
+                    name="companyLinkedin"
                     render={({ field }) => (
                       <FormItem>
                         <FormLabel>Company’s Linkedin</FormLabel>
